@@ -1,0 +1,34 @@
+<Project>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <!-- <PropertyGroup Label="Symbols">
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
+  </PropertyGroup> -->
+  
+  <PropertyGroup Label="Package MetaData">
+    <Authors>Sergei Khanlarov</Authors>
+    <Company>Sergei Khanlarov</Company>
+    <Copyright>Copyright © 2025 Sergei Khanlarov</Copyright>
+    <Product>SKhan.Specification</Product>
+
+    <PackageProjectUrl>https://github.com/SergeiKhanlarov/Specification</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SergeiKhanlarov/Specification</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageReadmeFile>README.MD</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.MD" Pack="true" PackagePath="\" Visible="false" />
+    <None Include="../../LICENSE" Pack="true" PackagePath="\" Visible="false" />
+  </ItemGroup>
+
+</Project>
