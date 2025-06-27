@@ -3,13 +3,22 @@
     <TargetFrameworks>net9.0;net8.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <AssemblyName>SKhan.Specification</AssemblyName>
     <PackageId>SKhan.Specification</PackageId>
     <Title>SKhan.Specification</Title>
-    <Version>0.1.0</Version>
-    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <Description>Specifications pattern implementation.</Description>
+    <Summary>Specifications pattern implementation.</Summary>
+
+    <Version>0.1.3</Version>
+    <PackageTags>specification, ddd, clear code</PackageTags>
+    <PackageReleaseNotes>
+      Update project descriptions
+    </PackageReleaseNotes>
+
     <Authors>Sergei Khanlarov</Authors>
     <Company>Sergei Khanlarov</Company>
-    <Description>Specifications pattern implementation</Description>
+    <RepositoryUrl>https://github.com/SergeiKhanlarov/Specification</RepositoryUrl>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 </Project>
